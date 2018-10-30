@@ -1,0 +1,102 @@
+*{
+	margin: 0 auto;
+	padding:0px;
+}
+
+body{
+	font-family:'Open Sans';
+}
+
+h2{
+	font-family:'Open Sans';
+  color:#3c3d41;
+  font-size: 43px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+header{
+	max-height:900px;
+	background: linear-gradient(-55deg,  #41e0d8 65%, #f9f9f9 65%);
+}
+
+ .dark{
+	min-height:861px;
+	background-color:#262a34;
+}
+
+article {
+	min-height:900px;
+	background-color: #41e0d8;
+	z-index:4;
+}
+
+section{
+	min-height:440px;
+	background-color:#262a34;
+}
+
+footer{
+	min-height:295px;
+	background-color:#f9f9f9;
+}
+
+.container{
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-around;
+ align-items: flex-start;
+}
+
+.Logo{
+  width: 54px;
+  height: 68px;
+  object-fit: contain;
+}
+.Screen {
+  width: 311px;
+  max-height: 480px;
+  object-fit: cover;
+  object-position: 0 0;
+}
+.Play-Button {
+  width: 169px;
+  height: 56px;
+  object-fit: contain;
+  
+}
+
+nav{
+	padding-top:20px;
+}
+nav ul{
+	text-transform:none;
+	list-style:none;
+
+}
+
+nav ul li{
+	margin: 20px;
+	padding: 10px;
+
+}
+
+nav ul li a{
+	color:#fff;
+	text-decoration:none;
+	font-size: 12px;
+	font-weight: 600;
+  line-height: 2.75;
+}
+
+.black_button{
+	background-color:#262a34;
+	padding:12px 40px;
+}
+
+.header_info{
+	 display: flex;
+	padding-top:287px;
+}
+.header_info_text{
+	margin-left:-127px;
+}
